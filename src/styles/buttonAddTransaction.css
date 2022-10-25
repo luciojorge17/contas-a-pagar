@@ -1,0 +1,65 @@
+.add-transaction {
+    min-width: 10rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background: #0E6251;
+    color: #E8F8F5;
+    padding: 1rem;
+}
+
+.add-transaction span {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .add-transaction {
+        right: 12.5rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .add-transaction {
+        right: 21.75rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .add-transaction {
+        right: 24rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .add-transaction {
+        right: 27.5rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .add-transaction {
+        right: 33rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .add-transaction {
+        right: 44.5rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .add-transaction {
+        right: 67.5rem;
+    }
+}

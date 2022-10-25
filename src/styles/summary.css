@@ -1,0 +1,21 @@
+.summary {
+    margin: .5rem 0 1rem 0;
+    display: flex;
+    gap: 1rem;
+    background: #0E6251;
+    color: #EAFAF1;
+    border-radius: .5rem;
+    padding: 2rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.summary>div {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.summary>div b {
+    font-size: 1.1rem;
+}

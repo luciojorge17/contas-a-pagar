@@ -1,0 +1,29 @@
+.change-month {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 1rem 0;
+    justify-content: space-between;
+    background: #212F3C;
+    border-radius: .5rem;
+    padding: .75rem;
+}
+
+.change-month button {
+    background: transparent;
+    color: #ABEBC6;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.change-month button:nth-child(1) {
+    justify-content: flex-start;
+}

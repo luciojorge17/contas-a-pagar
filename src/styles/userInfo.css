@@ -1,0 +1,29 @@
+.home .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0 0 0;
+}
+
+.home .user-info div {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.home .user-info button {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    color: #CB4335;
+    cursor: pointer;
+    padding: 0;
+}
+
+.home .user-info img {
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    border: 2px solid #0E6251;
+}

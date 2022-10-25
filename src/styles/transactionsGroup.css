@@ -1,0 +1,15 @@
+.transactions-group {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.transactions-group h3 {
+    font-size: .9rem;
+    font-weight: 500;
+    margin: .25rem 0 0 0;
+    border-bottom: 2px solid #212F3C;
+    border-top: 2px solid #212F3C;
+    padding: .5rem 0;
+    color: #AEB6BF;
+}
